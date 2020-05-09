@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/ichan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/chan" />
+
+            <Button
+                android:id="@+id/bchan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#73111A4A"
+                android:hapticFeedbackEnabled="true"
+                android:text="Chandler Muriel Bing"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E91E63"
+                android:textColorHint="#E91E63"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/imon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/mon" />
+
+            <Button
+                android:id="@+id/bmon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:backgroundTint="#6D4A0E24"
+                android:hapticFeedbackEnabled="true"
+                android:text="Monica Eustace Geller"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#3F51B5"
+                android:textColorHint="#3F51B5"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/iross"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/kee" />
+
+            <Button
+                android:id="@+id/bross"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#73111A4A"
+                android:hapticFeedbackEnabled="true"
+                android:text="Ross Eustace Geller"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E91E63"
+                android:textColorHint="#E91E63"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/irach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/rach" />
+
+            <Button
+                android:id="@+id/brach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:backgroundTint="#6D4A0E24"
+                android:hapticFeedbackEnabled="true"
+                android:text="Rachel Karen Green"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#3F51B5"
+                android:textColorHint="#3F51B5"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/ijoe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/joe" />
+
+            <Button
+                android:id="@+id/bjoe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#73111A4A"
+                android:hapticFeedbackEnabled="true"
+                android:text="Joseph Francis Tribbiani Junior"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E91E63"
+                android:textColorHint="#E91E63"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/ipheebs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pheebs" />
+
+            <Button
+                android:id="@+id/bpheebs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:backgroundTint="#6D4A0E24"
+                android:hapticFeedbackEnabled="true"
+                android:text="Phoebe Buffay-Hannigan"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#3F51B5"
+                android:textColorHint="#3F51B5"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
